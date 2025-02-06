@@ -1,4 +1,4 @@
-# DLYKH
+# DLYKH - Don't Leave Your Keys At Home
 Repository for documenting the process of creating an ict-project for course ICT-infrastructure project
 
 ## Concept
