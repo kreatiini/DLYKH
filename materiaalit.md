@@ -8,4 +8,6 @@ Arduino RFID lukija [linkki](https://www.partco.fi/fi/iot/iot-kehityskortit/nfc/
 
 Grove Passive busser, Kaiutin, [linkki](https://www.partco.fi/fi/rakennussarjat/grove/24709-seeed-107020109.html)
 
+Arduino IDE sovellus laitteen configurointiin, [linkki](https://www.arduino.cc/en/software/)
+
 Projektissa käytettin työkaluina myös jokaisen osallistujan henkilökohtaisia tietokoneita.
