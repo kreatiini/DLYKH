@@ -1,13 +1,6 @@
-# Hankitut välineet
-
-Arduino Plug and Make Kit [linkki](https://store.arduino.cc/en-fi/products/plug-and-make-kit?srsltid=AfmBOorYmk7u4V371LcJnnm12d9XxadIRj8k2U8Iua3EyfjrOrqUVM_6)
-Ovimagneetti, (magneettisensori) [linkki](https://www.partco.fi/fi/haelytinvalvonta/24427-mk2000w.html)
-Arduino RFID lukija [linkki](https://www.partco.fi/fi/iot/iot-kehityskortit/nfc/24764-rfid-rc522-kit.html)
-Grove Passive busser, Kaiutin, [linkki](https://www.partco.fi/fi/rakennussarjat/grove/24709-seeed-107020109.html)
-
-
 
 ## Suunnittelu
+
 
 
 ## Tiedonhaku
@@ -15,8 +8,11 @@ Grove Passive busser, Kaiutin, [linkki](https://www.partco.fi/fi/rakennussarjat/
 
 
 ## Välineiden alkutestaus
+Alkutestauksen aikana Arduino UNO R4 WiFI otettiin käyttöön ja saatiin toimimaan. Ensimmäinen käyttööotto tapahtui [Arduino Documentationin](https://docs.arduino.cc/hardware/uno-r4-wifi/?_gl=1*18rlor6*_up*MQ..*_ga*NDgzNjE1MDEzLjE3NDQ2MTY5MTY.*_ga_NEXN8H46L5*MTc0NDYxNjkxNC4xLjEuMTc0NDYxNjkyMC4wLjAuODQ0MzMyNDQ0) avulla. 
 
+## Laitteiden yhdistelemistä
 
+ ![IMG_4464](https://github.com/user-attachments/assets/b6f1db29-bde3-46e6-8126-7cd604c5bd14)
 
 
 
@@ -24,4 +20,6 @@ Grove Passive busser, Kaiutin, [linkki](https://www.partco.fi/fi/rakennussarjat/
 
 # Lähteitä
 
-How to Use a Magnetic Door Switch / Sensor With Arduino, Autodesk Instructables, [Linkki](https://www.instructables.com/How-to-Use-a-Magnetic-Door-Switch-Sensor-With-Ardu/)
+- How to Use a Magnetic Door Switch / Sensor With Arduino, Autodesk Instructables, [Linkki](https://www.instructables.com/How-to-Use-a-Magnetic-Door-Switch-Sensor-With-Ardu/)
+- Arduino Docs, UNO R4 WiFi, [Linkki](https://docs.arduino.cc/hardware/uno-r4-wifi/?_gl=1*18rlor6*_up*MQ..*_ga*NDgzNjE1MDEzLjE3NDQ2MTY5MTY.*_ga_NEXN8H46L5*MTc0NDYxNjkxNC4xLjEuMTc0NDYxNjkyMC4wLjAuODQ0MzMyNDQ0)
+- 
