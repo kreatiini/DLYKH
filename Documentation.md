@@ -17,7 +17,7 @@ Alkutestauksen aikana Arduino UNO R4 WiFI otettiin käyttöön ja saatiin toimim
 
 Laitteiden alkutestauksen aikana RFID laite toimi normaalisti. Mutta seuraavalla tapaamiskerralla törmättiin ensimmäisiin ongelmiin. Toistettaessa edellisen työkerran osia, ei tälläkertaa koodi toiminutkaan.
 
-[](https://github.com/user-attachments/assets/32a73202-c83e-483d-8a07-172856e0f897)
+![error message](https://github.com/user-attachments/assets/32a73202-c83e-483d-8a07-172856e0f897)
 
 
 
