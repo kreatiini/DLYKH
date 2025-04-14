@@ -7,6 +7,19 @@ Grove Passive busser, Kaiutin, [linkki](https://www.partco.fi/fi/rakennussarjat/
 
 
 
+## Suunnittelu
+
+
+## Tiedonhaku
+
+
+
+## Välineiden alkutestaus
+
+
+
+
+
 
 
 # Lähteitä
