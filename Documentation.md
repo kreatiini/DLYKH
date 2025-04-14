@@ -31,7 +31,7 @@ Laitteiden alkutestauksen aikana RFID laite toimi normaalisti. Mutta seuraavalla
 
 ![error message](https://github.com/user-attachments/assets/32a73202-c83e-483d-8a07-172856e0f897)
 
-Jostain syystä Arduino debugger ei toiminut. Itse koodi toimii RFID lukijan kanssa sillä Arduino laudassa oleva pieni ledi antaa merkin siitä että RFID tagi on tunnistettu. Joten itse debuggerissa on jokin vika. 
+Jostain syystä Arduino debugger ei toiminut. Itse koodi toimii RFID lukijan kanssa sillä Arduino laudassa oleva pieni ledi antaa merkin siitä että RFID tagi on tunnistettu. Joten itse debuggerissa on jokin vika. Debuggerin vika korjautui lopulta kun asensi IDE sovelluksen udestaan, mutta koodin kanssa tuli lisää ongelmia. Lopulta piuhojen tarkastus ja uudelleenasettaminen sai vian korjattua. 
 
 
 
