@@ -6,7 +6,7 @@ Ovimagneetti, (magneettisensori) [linkki](https://www.partco.fi/fi/haelytinvalvo
 
 Arduino RFID lukija [linkki](https://www.partco.fi/fi/iot/iot-kehityskortit/nfc/24764-rfid-rc522-kit.html)
 
-Grove Passive busser, Kaiutin, [linkki](https://www.partco.fi/fi/rakennussarjat/grove/24709-seeed-107020109.html)
+Grove Passive buzzer, Kaiutin, [linkki](https://www.partco.fi/fi/rakennussarjat/grove/24709-seeed-107020109.html)
 
 Arduino IDE sovellus laitteen configurointiin, [linkki](https://www.arduino.cc/en/software/)
 
