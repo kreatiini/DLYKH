@@ -12,7 +12,7 @@ Alkutestauksen aikana Arduino UNO R4 WiFI otettiin käyttöön ja saatiin toimim
 
 ## Laitteiden yhdistelemistä
 
- ![IMG_4464](https://github.com/user-attachments/assets/b6f1db29-bde3-46e6-8126-7cd604c5bd14)
+
 
 
 
