@@ -33,6 +33,10 @@ Laitteiden alkutestauksen aikana RFID laite toimi normaalisti. Mutta seuraavalla
 
 Jostain syystä Arduino debugger ei toiminut. Itse koodi toimii RFID lukijan kanssa sillä Arduino laudassa oleva pieni ledi antaa merkin siitä että RFID tagi on tunnistettu. Joten itse debuggerissa on jokin vika. Debuggerin vika korjautui lopulta kun asensi IDE sovelluksen udestaan, mutta koodin kanssa tuli lisää ongelmia. Lopulta piuhojen tarkastus ja uudelleenasettaminen sai vian korjattua. 
 
+![tag found](https://github.com/user-attachments/assets/b7af5ab7-696f-4b97-9b00-56796ab406c1)
+
+NFC-Tagin löytyminen saatiin toimimaan kuten kuvasta näkyy. Seuraavaksi vuorossa on magneettikytkimen kiinnittäminen ja kaijuttimen yhdistäminen siten, että kaijutin hälyttää jos tagi otetaan pois.
+
 
 
 
