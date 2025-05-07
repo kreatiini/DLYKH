@@ -37,8 +37,17 @@ Jostain syystä Arduino debugger ei toiminut. Itse koodi toimii RFID lukijan kan
 
 NFC-Tagin löytyminen saatiin toimimaan kuten kuvasta näkyy. Seuraavaksi vuorossa on magneettikytkimen kiinnittäminen ja kaijuttimen yhdistäminen siten, että kaijutin hälyttää jos tagi otetaan pois.
 
+## Magneettikytkimen ja kaiuttimen yhdistäminen
 
+Magneettikytkimen ja kaiuttimen yhdistämiseen löytyi paljon tietoa verkosta. Alkuun testattiin ensin pelkkä kaiutin hyvin lyhyellä koodinpätkällä. (https://wiki.seeedstudio.com/Grove-Buzzer/). Kaiutin toimi hyvin. Tämän jälkeen piti lisätä magneettikytkin ja testata sen toimintaa. Magneettikytkimen ja kaiuttimen yhdistämiseen löytyi suoraan ohjeet netistä: https://www.instructables.com/How-to-Use-a-Magnetic-Door-Switch-Sensor-With-Ardu/. Esimerkistä kuitenkin poiketen kytkin oli "LOW" ollessa kiinni ja "HIGH" auki. Ne piti siis kääntää ympäri. Tämän muutoksen jälkeen molemmat lähtivät toimimaan. 
 
+## Magneettikytkin, lukija ja kaiutin kasaan
+
+Tämä vaihe oli omalla tavallaan haasteellinen heikosta ohjelmointitaustasta johtuen. Koodi kuitenkin löytyi lukijaan, magneettikytkimeen sekä kaiuttimeen jo valmiiksi. Tämä vaihe vaati hieman perehtymistä C++/Arduinossa käytettäviin funktioihin. Ajatuksena siis tehdä jokaisesta laitteesta funktio ja ehtojen täyttyessä kaiutin päästää äänen. Tämä oli yllättävän haasteellista. Kesti aika kauan aikaa ensin muodostaa jollain tavalla ymmärrettävän näköinen kokonaisuus. Tämän jälkeen meni hetki saada kokonaisuus toimimaan oikein. Se kuitenkin onnistui. Ja näin pääidea saatiin kasaan, laite toimimaan vähimmäistasolla.
+
+## Napin lisääminen
+
+Viimeisenä oli tarkoitus lisätä nappi, jolla hälytys saadaan pois päältä kahdeksi minuutiksi. Ensimmäinen nappi hajosi repussa. Onneksi Plug & Make kitin mukana tuli kolmen napin palikka jota pystyimme hyödyntämään. Tämä palikka hyödynsi Arduinon Qwiick liitintä. Sitä ei siis tarvinnut yhdistää erillisiin kohtiin Arduinossa. Tämän jälkeen piti etsiä Modulino moduuli ja asentaa se. Suunnitelma oli sama eli tehdä napille funktio ja ehtojen täyttyessä se hiljentää kaiuttimen kahdeksi minuutiksi. Käytin napin koodin apuna tätä https://forum.digikey.com/t/arduino-modulino-buttons-tutorial/44899 ohjetta joka oli hyvä ja selventävä. Perehtyessäni Modulino osien toimintaan katselin niitä myös täältä https://projecthub.arduino.cc/metehocax/arduino-plug-and-make-kit-all-modulino-demo-99ad53 . 
 
 ## Valmis laite, perusperiaate.
 
