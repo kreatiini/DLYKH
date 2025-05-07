@@ -38,6 +38,8 @@ Jostain syystä Arduino debugger ei toiminut. Itse koodi toimii RFID lukijan kan
 NFC-Tagin löytyminen saatiin toimimaan kuten kuvasta näkyy. Seuraavaksi vuorossa on magneettikytkimen kiinnittäminen ja kaijuttimen yhdistäminen siten, että kaijutin hälyttää jos tagi otetaan pois.
 
 
+
+
 ## Valmis laite, perusperiaate.
 
 ![Laitteen osat valmiissa laitteessa](https://github.com/user-attachments/assets/167d205a-7dea-423f-95f7-428323fa3ab2)
@@ -50,6 +52,11 @@ C: Laitteen kaijutin josta tulee äänimerkki.
 
 D: Arduino UNO R4 WiFi, laitteen aivot.
 
+## Valmis laite, hiljennysnapin kanssa.
+
+![Valmis + nappi](https://github.com/user-attachments/assets/0a636f91-520c-4e76-922a-4a6d8f191c16)
+
+E: Laitteen hiljennysnappi. Nappia painaessa laite hiljenee kahdeksi minuutiksi. Eli oven voi avata siten että avain on paikallaan, eikä laite hälytä.
 
 
 
