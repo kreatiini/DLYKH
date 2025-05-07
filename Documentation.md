@@ -59,7 +59,8 @@ D: Arduino UNO R4 WiFi, laitteen aivot.
 E: Laitteen hiljennysnappi. Nappia painaessa laite hiljenee kahdeksi minuutiksi. Eli oven voi avata siten että avain on paikallaan, eikä laite hälytä.
 
 
-Projektin lyhyt[demovideo](https://youtu.be/VMIWuo55bsI)
+Projektin lyhyt [demovideo](https://youtu.be/VMIWuo55bsI)
+Projektin toinen tarinallinen [demovideo](https://youtu.be/eoO5MgIFSag)
 
 # Lähteitä
 
