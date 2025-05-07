@@ -38,6 +38,17 @@ Jostain syystä Arduino debugger ei toiminut. Itse koodi toimii RFID lukijan kan
 NFC-Tagin löytyminen saatiin toimimaan kuten kuvasta näkyy. Seuraavaksi vuorossa on magneettikytkimen kiinnittäminen ja kaijuttimen yhdistäminen siten, että kaijutin hälyttää jos tagi otetaan pois.
 
 
+## Valmis laite, perusperiaate.
+
+![Laitteen osat valmiissa laitteessa](https://github.com/user-attachments/assets/167d205a-7dea-423f-95f7-428323fa3ab2)
+
+A: Avain, sekä avamen paikka. Jos paikka on tyhjä ja ovikytkin aukeaa, ei ääntä kuulu. 
+
+B: Ovikytkin. Jos avain on paikallaan ja ovikytkin aukeaa, kuuluu hälytysääni.
+
+C: Laitteen kaijutin josta tulee äänimerkki.
+
+D: Arduino UNO R4 WiFi, laitteen aivot.
 
 
 
